@@ -1,8 +1,8 @@
 function loadFile(url, callback) {
   PizZipUtils.getBinaryContent(url, callback);
 }
-function Generate() {
-  loadFile("http://localhost:8000/media/123.docx", function (error, content) {
+function Generate(url) {
+  loadFile(url, function (error, content) {
     if (error) {
       throw error;
     }
