@@ -12,16 +12,14 @@
     <br><br><br><br><br><br>
     <div align="center" class="container">
       <h2>Служебная записка</h2>
-      <form>
-        <div style="width: 40%" class="form-group">
-          <br>
-          <p><input type="text" name="tutorial" class="form-control" placeholder="Учебное пособие"></p>
-          <p><input type="text" name="direction" class="form-control" placeholder="Направление подготовки"></p>
-          <p><input type="date" name="date" class="form-control" placeholder="Дата"></p>
-          <p><input type="text" name="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
-          <button class="btn btn-success" style="width: 200px" onclick="GenerateS('https:\/\/fla.codes/media/sluzhebnaya-zapiska.docx')">Cформировать</button>
-        </div>
-      </form>
+      <div style="width: 40%" class="form-group">
+        <br>
+        <p><input type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
+        <p><input type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
+        <p><input type="date" id="date" class="form-control" placeholder="Дата"></p>
+        <p><input type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
+        <button class="btn btn-success" style="width: 200px" onclick="GenerateS('https:\/\/fla.codes/media/sluzhebnaya-zapiska.docx')">Cформировать</button>
+      </div>
       <a class="btn btn-outline-primary" href="./zayavka-na-razmeshchenie.html">Заявка на размещение</a>
     </div>
   </body>

@@ -13,22 +13,20 @@
     <br><br><br><br><br>
     <div align="center" class="container">
       <h2>Заявка на размещение</h2>
-      <form>
-        <div style="width: 40%" class="form-group">
-          <br>
-          <p><input type="text" name="institute" class="form-control" placeholder="Институт/Факультет"></p>
-          <p><input type="text" name="department" class="form-control" placeholder="Кафедра"></p>
-          <p><input type="text" name="tutorial" class="form-control" placeholder="Учебное пособие"></p>
-          <p><input type="text" name="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
-          <p><input type="text" name="title" class="form-control" placeholder="Заглавие"></p>
-          <p><input type="number" name="year" class="form-control" placeholder="Год издания"></p>
-          <p><input type="text" name="direction" class="form-control" placeholder="Направление подготовки"></p>
-          <p><input type="text" name="discipline" class="form-control" placeholder="Дисциплина"></p>
-          <p><input type="email" name="email" class="form-control" placeholder="Ваша почта"></p>
-          <p><input type="tel" class="form-control" name="phone" data-tel-input placeholder="Ваш телефон" maxlength="18"></p>
-          <button class="btn btn-success" style="width: 175px" onclick="GenerateR('https:\/\/fla.codes/media/zayavka-na-razmeshchenie.docx')">Cформировать</button>
-        </div>
-      </form>
+      <div style="width: 40%" class="form-group">
+        <br>
+        <p><input type="text" id="institute" class="form-control" placeholder="Институт/Факультет"></p>
+        <p><input type="text" id="department" class="form-control" placeholder="Кафедра"></p>
+        <p><input type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
+        <p><input type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
+        <p><input type="text" id="title" class="form-control" placeholder="Заглавие"></p>
+        <p><input type="number" id="year" class="form-control" placeholder="Год издания"></p>
+        <p><input type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
+        <p><input type="text" id="discipline" class="form-control" placeholder="Дисциплина"></p>
+        <p><input type="email" id="email" class="form-control" placeholder="Ваша почта"></p>
+        <p><input type="tel" class="form-control" id="phone" data-tel-input placeholder="Ваш телефон" maxlength="18"></p>
+        <button class="btn btn-success" style="width: 175px" onclick="GenerateR('https:\/\/fla.codes/media/zayavka-na-razmeshchenie.docx')">Cформировать</button>
+      </div>
       <a class="btn btn-outline-primary" href="./sluzhebnaya-zapiska.html">Служебная записка</a>
     </div>
   </body>
