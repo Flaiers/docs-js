@@ -43,10 +43,10 @@ function GenerateS(url) {
     }
 
     doc.setData({
-      tutorial: "Программирование Go vs Python",
-      direction: "MIT",
-      date: "11.11.2011",
-      authors: "Bigin Maxim Sergeevich",
+      tutorial: document.getElementById("tutorial").value,
+      direction: document.getElementById("direction").value,
+      date: document.getElementById("date").value.split('-').reverse().join('.'),
+      authors: document.getElementById("authors").value,
     });
     try {
       doc.render();
@@ -104,10 +104,16 @@ function GenerateR(url) {
     }
 
     doc.setData({
-      tutorial: "Программирование Go vs Python",
-      direction: "MIT",
-      date: "11.11.2011",
-      authors: "Bigin Maxim Sergeevich",
+      institute: document.getElementById("institute").value,
+      department: document.getElementById("department").value,
+      tutorial: document.getElementById("tutorial").value,
+      authors: document.getElementById("authors").value,
+      title: document.getElementById("title").value,
+      year: document.getElementById("year").value,
+      direction: document.getElementById("direction").value,
+      discipline: document.getElementById("discipline").value,
+      email: document.getElementById("email").value,
+      phone: document.getElementById("phone").value,
     });
     try {
       doc.render();
