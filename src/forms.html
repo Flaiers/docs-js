@@ -21,30 +21,30 @@
   </style>
   <body>
     <br><br><br><br>
-    <div style="width: 1080px;max-width: 1080px;" align="center" class="container">
+    <div style="width: 1000px;max-width: 1000px;" align="center" class="container">
       <div id="left" style="width: 40%"  class="form-group">
         <h3>Служебная записка</h3>
         <form action="">
-          <p><input required type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
-          <p><input required type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
-          <p><input required type="date" id="date" class="form-control" placeholder="Дата"></p>
-          <p><input required type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
+          <p><input autocomplete="off" required type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
+          <p><input autocomplete="off" required type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
+          <p><input autocomplete="off" required type="date" id="date" class="form-control" placeholder="Дата"></p>
+          <p><input autocomplete="off" required type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
           <button class="btn btn-success" onclick="GenerateS('http://elibs.kai.ru/images/sluzhebnaya-zapiska.docx')">Cформировать</button>
         </form>
       </div>
       <div id="right" style="width: 40%" class="form-group">
         <h3>Заявка на размещение</h3>
         <form action="">
-          <p><input required type="text" id="institute" class="form-control" placeholder="Институт/Факультет"></p>
-          <p><input required type="text" id="department" class="form-control" placeholder="Кафедра"></p>
-          <p><input required type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
-          <p><input required type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
-          <p><input required type="text" id="title" class="form-control" placeholder="Заглавие"></p>
-          <p><input required type="number" id="year" class="form-control" placeholder="Год издания"></p>
-          <p><input required type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
-          <p><input required type="text" id="discipline" class="form-control" placeholder="Дисциплина"></p>
-          <p><input required type="email" id="email" class="form-control" placeholder="Ваша почта"></p>
-          <p><input required type="tel" class="form-control" id="phone" data-tel-input placeholder="Ваш телефон" maxlength="18"></p>
+          <p><input autocomplete="off" required type="text" id="institute" class="form-control" placeholder="Институт/Факультет"></p>
+          <p><input autocomplete="off" required type="text" id="department" class="form-control" placeholder="Кафедра"></p>
+          <p><input autocomplete="off" required type="text" id="tutorial" class="form-control" placeholder="Учебное пособие"></p>
+          <p><input autocomplete="off" required type="text" id="authors" class="form-control" placeholder="ФИО авторов через запятую"></p>
+          <p><input autocomplete="off" required type="text" id="title" class="form-control" placeholder="Заглавие"></p>
+          <p><input autocomplete="off" required type="number" id="year" min="1950" max="2021" class="form-control" placeholder="Год издания"></p>
+          <p><input autocomplete="off" required type="text" id="direction" class="form-control" placeholder="Направление подготовки"></p>
+          <p><input autocomplete="off" required type="text" id="discipline" class="form-control" placeholder="Дисциплина"></p>
+          <p><input autocomplete="off" required type="email" id="email" class="form-control" placeholder="Ваша почта"></p>
+          <p><input autocomplete="off" required type="tel" class="form-control" id="phone" data-tel-input placeholder="Ваш телефон" maxlength="18"></p>
           <button class="btn btn-success" onclick="GenerateR('http://elibs.kai.ru/images/zayavka-na-razmeshchenie.docx')">Cформировать</button>
         </form>
       </div>
